@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="favicon.png" />
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+        <title>Boe Tea - Status</title>
+    </head>
+
+    <body>
+        <!-- ANCHOR header start -->
+        <header>
+            <div id="headerContent">
+                <div>
+                    <img src="/image/Pngtree_cute_robot_mascot_logo_6023574.png" alt="logo">
+                    <h1>Boe Tea</h1>
+                </div>
+                
+                <nav>
+                    <ul>
+                        <li class="borderAnim"><a href="/index.html">Home</a></li>
+                        <li class="borderAnim"><a class="active" onclick="alert('You\'re already here, silly')">Status</a></li>
+                        <li class="borderAnim"><a href="/features/features.html">Features</a></li>
+                        <li class="borderAnim"><a href="/community/community.html">Community</a></li>
+                    </ul>
+                    <button onclick="location.href='/invite/invite.html'">Invite</button>
+                </nav>
+
+                <i class="fas fa-bars" id="borgarIcon" onclick="borgar()"></i>
+            </div>
+        </header>
+        <!-- header end -->
+
+        <!-- ANCHOR burger start -->
+            <section id="borgarMenu">
+                <div class="menu">
+                    <ul>
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a class="active" onclick="alert('You\'re already here, silly')">Status</a></li>
+                        <li><a href="/features/features.html">Features</a></li>
+                        <li><a href="/invite/invite.html">Invite</a></li>
+                        <li><a href="/community/community.html">Community</a></li>
+                    </ul>
+                    <span id="menuClose" onclick="noBorgar()">x</span>
+                </div>
+            </section>
+            <!-- burger end -->
+
+            <!-- ANCHOR main start -->
+            <main>
+                <!-- ANCHOR section 1 start -->
+                <section id="intro">
+                    <div class="left">
+                        <img src="/image/graph.jpg" alt="a graph - images posted over time">
+                        <p>Images posted over time (this is a placeholder)</p>
+                    </div>
+
+                    <div class="right">
+                        <h2>Statistics</h2>
+                        <p>Here you can see some of Boe Tea's stats like number of servers that trusted Boe Tea, how much channels Boe Tea have access to and how much images were posted with the "no reposts" feature on.</p>
+                    </div>
+                </section>
+                <!-- section 1 end -->
+
+                <!-- ANCHOR section 2 start -->
+                <section id="stats">
+                    <h3>More stats</h3>
+                    <div id="statsContainer">
+                        <div class="column">
+                            <h4>Servers :</h4>
+                            <p>N/A</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Channels :</h4>
+                            <p>N/A</p>
+                        </div>
+
+                        <div class="column">
+                            <h4>Images posted :</h4>
+                            <p>N/A</p>
+                        </div>
+                    </div>
+                </section>
+                <!-- section 2 end -->
+            </main>
+            <!-- main end -->
+
+            <!-- ANCHOR footer start -->
+            <footer>
+
+                <button onclick="location.href='https:\/\/www.patreon.com/vtgare'">Support Boe Tea</button>
+
+                <a href="" id="toTop">To top</a>
+                
+                <ul>
+                    <li><a href="https://www.termsfeed.com/live/fe5aab6b-9810-41ec-9cbf-edadb77b3c00">Privacy policy</a></li>
+                    <li><a href="https://www.termsfeed.com/live/ea48bf56-adbd-4386-8abe-99ad20ba8620">Disclaimers</a></li>
+                    <li>Made by <a href="my portfolio">Maxime Traineau</a></li>
+                    <li><a href="/community/community.html">Contact</a></li>
+                </ul>
+            </footer>
+            <!-- footer end -->
+    </body>
+</html>
